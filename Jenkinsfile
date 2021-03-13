@@ -11,10 +11,5 @@ pipeline {
                 sh 'yarn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // TODO
-            }
-        }
     }
 }
